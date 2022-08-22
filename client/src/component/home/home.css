@@ -1,0 +1,292 @@
+.container{
+    padding: 0px;
+}
+.Home{
+    padding: 80px 0px 50px;
+   
+}
+.home_tieude{
+    text-align: center;
+}
+.home_tieude_divh2>h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    
+}
+.home_tieude_divp>p{
+    color: #947054;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-style: italic;
+    margin-bottom: 100px;
+    line-height: 2;
+    font-weight: 600;
+}
+.taghome{
+    padding: 20px;
+    border: 1px solid #e1dddd;
+    min-height: 210px;
+    max-height: 215px;
+    overflow: hidden;
+}
+.cardhome{
+    position: relative;
+}
+.cardhome__tym{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color:#947054 ;
+    height: 35px;
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 35px;
+}
+.Card:hover>.cardhome>.cardhome__tym{
+    background-color:black ;
+}
+.cardhome__price{
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #947054;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 10;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.Card{
+    transition: box-shadow .3s;
+    margin-bottom: 50px;
+}
+/* .Card:hover>.cardhome>.cardhome__tym{
+    background-color:black ;
+} */
+.Card:hover>.cardhome.cardhome>.cardhome__price{
+    background-color:#947054 ;
+    color: #fff;
+}
+.Card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.card-img{
+    border-radius:0px;
+    border-style: none;
+    min-height: 253px;
+    max-height: 255px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+/* Idea css */
+
+.idea-content{
+    padding: 0px;
+    width: 100%;
+    height: 810px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.bg-overlay-black{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+   
+}
+
+.idea-content-img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height:100%;
+   object-fit: cover;
+   object-position: center center;
+   
+}
+.idea-content-slogan{
+    position: absolute;
+    padding: 18% 0% 0% 20%;
+}
+.idea-content-slogan-h3{
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.idea-content-slogan-h6{
+    padding: 0px 9%;
+    font-size: 30px;
+    font-style: italic;
+    color: #ffffff;
+}
+.idea-content-slogan-button{
+    min-width: 170px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #947054;
+    border-radius: 0;
+    line-height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.idea-content-slogan-button:focus{
+    outline: none !important;
+    border: 1.2px solid white !important;
+    box-shadow: 0 0 11px rgba(255, 158, 48, 0.3);
+}
+#Click_Find_News{
+    visibility: hidden;
+}
+
+/* Feedback custormer (Đánh giá từ khách hàng) */
+.box-feedback{
+    border: 1px solid #ccc;
+    text-align: center;
+    min-height: 400px;
+    max-height: 401px;
+    padding:20px 20px 20px 20px;
+    position: relative;
+}
+.box-title-h6{
+    padding: 20px 0px;
+    min-height: 100px;
+}
+.box-content-p{
+    padding: 5px 20px 40px 20px;
+    text-align: center;
+    color: #7d7d7d;
+    font-size: 14px;
+    max-height: 150px;
+    line-height: 2;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.box-author-info{
+   position: absolute;
+   bottom: 20px;
+   left: 30%;
+   text-align: center;
+}
+.box-author-info-img{
+    width: 50px !important;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+.box-author-info-p{
+    color: #323232;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 600;
+    font-weight: bold;
+    padding: 0px 0px;
+    max-height: 200px;
+    overflow: hidden;
+}
+.box-author-info-span{
+    color: red;
+    
+}
+.btn-feedback{
+    width:50px;
+    height:50px;
+    background:#947054;
+    text-align:center;
+    font-weight:bold;
+    font-size:9px;
+    color: white;
+    font-family:arial;
+    line-height:50px;
+    border-radius:50%;
+    position: fixed;
+    left:95%;
+    top:90%;
+    transform:translate(-50%,-50%);
+    z-index: 10;
+}
+.btn-feedback:before{
+    position:absolute;
+    content:'';
+    border:5px solid #947054;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    border-radius:50%;
+    animation:animate 2s linear infinite;
+    z-index: 10;
+  }
+.btn-feedback:after{
+    position:absolute;
+    content:'';
+    border:5px solid #947054;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    border-radius:50%;
+    animation:animate 2s 1s linear infinite;
+    z-index: 10;
+  }
+
+  @keyframes animate{
+    100%{
+      transform:scale(2);
+      opacity:0
+    }
+}
+
+/* Link Detail News */
+.Link-detail-news{
+  text-decoration: none;
+  font-size: 19px;
+  color: #323232;
+  font-weight: 700;
+  max-height: 100px !important;
+  overflow: hidden;
+  
+}
+.Link-detail-news:hover{
+   text-decoration: none;
+   color: #947054;
+}
+
+/* Tag Home (Những tiện ích Card News) */
+.taghome-location{
+    padding: 20px 0px;
+}
+
+
+.result_filter{
+    visibility: hidden  !important;
+}
+.result_filter_No_item{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}

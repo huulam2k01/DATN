@@ -1,0 +1,64 @@
+.search-title{
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    background-color: #947054;
+    top: -46px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 0 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.nice-select{
+    line-height: 27px;
+}
+/* Slider Price and Acreage */
+.MuiSlider-root{
+    color: #947054 !important;
+}
+.MuiSlider-thumb{
+    height: 16px !important;
+    width: 16px !important;
+}
+.MuiSlider-rail{
+    height:6px !important;
+}
+.MuiSlider-track{
+    height:6px !important;
+}
+.select_item{
+    margin-bottom: 20px;
+   
+}
+.range{
+    margin-bottom: 18px;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.find_home{
+    float: right;
+}
+.bnt_find{
+    min-width: 170px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #947054;
+    border-radius: 0;
+    line-height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border: none;
+}
+.bnt_find:hover{
+    background-color: black;
+}

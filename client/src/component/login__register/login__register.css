@@ -1,0 +1,134 @@
+
+/* Input of login and register */
+.inputusername{
+    padding: 0px;
+}
+.inputpassword{
+    padding: 0px;
+}
+.error_message-login{
+    text-align: center;
+    color: red;
+    
+}
+.inputusername>input{
+    border: none;
+    border-radius:0px ;
+    border-bottom:1.5px solid #ccc ;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputpassword>input{
+    border: none;
+    border-radius:0px ;
+    border-bottom: 1.5px solid #ccc;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputusername>input:focus{
+    border-color: none;
+    border-radius:0px ;
+}
+.form-control:focus{
+    border-color: none;
+    box-shadow:none;
+    border-bottom:1.5px solid #947054;
+}
+
+/* Icon login and register */
+.icon_username{
+    padding-top: 5px;
+    padding-left: 17px;
+}
+.icon_password{
+    padding-top: 5px;
+    padding-left: 17px;
+}
+.bntdangnhap>input{
+    background-color: #947054;
+    height: 44px;
+    width: 180px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius:0px ;
+}
+.modal-body{
+    padding-bottom: 0px;
+}
+.span_registerinlogin{
+    text-align: right;
+    padding: 20px 0px 0px 0px;
+}
+.span_registerinlogin>a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+}
+.span_registerinlogin>span>a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+}
+.span_registerinlogin>a:hover{
+    color: #947054;
+}
+.span_registerinlogin>span>a:hover{
+    color: #947054;
+}
+/* Menu dropdown Login success */
+.bnt_btuserprofile{
+    background-color: #947054;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bnt_btuserprofile:hover{
+    background-color:#947054;
+
+}
+.show>.btn-secondary.dropdown-toggle{
+    background-color:#947054;
+    border-color: white;
+}
+.btn:focus{
+    outline: none !important;
+    box-shadow:none;
+}
+.show>.btn-secondary.dropdown-toggle:focus{
+    border: none;
+    outline: none;
+}
+.dropdown-toggle::after {
+    margin-left: 1.255em;
+}
+.dropdown-menu_btn:hover{
+    font-weight:  600;
+}
+.dropdown-menu.show {
+    width: 12rem;
+}
+.dropdown-item:active{
+    background-color:#947054;
+    border: none;
+}
+.input_formname{
+   padding: 0px 15px;
+}
+
+
+/* hidden-change-password */
+.hidden-change-password{
+    visibility: hidden;
+}
+
+/* FeedBack */
+.feedback-content{
+    margin-bottom: 20px !important;
+}
+.feedback-content-textarea{
+    min-height: 120px;
+}

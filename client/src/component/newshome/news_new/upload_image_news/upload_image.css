@@ -1,0 +1,115 @@
+.row{
+    width: 100%;
+}
+.image_news{
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 30px rgba(0,0,0,.15);
+    margin-bottom: 50px;
+    padding: 10px 15px 40px 15px;
+}
+
+.image_news_avatar_upload_box:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.image_news_avatar_selectFile-input{
+    padding: 15% 20% 18% 50%;
+}
+.image_news_avatar_selectFile-input>label{
+    min-width: 150px;
+    height: 42px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #947054;
+    border-radius: 0;
+    line-height: 42px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border: none;
+}
+.image_news_avatar_selectFile-input>label:hover{
+    box-shadow: 0 0 11px rgba(255, 158, 48, 0.3);
+}
+#upload-photo-avatar {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+#upload-photo-imginfor{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+.upload-imginfor{
+    min-width: 120px;
+    height: 38px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #947054;
+    border-radius: 0;
+    line-height: 38px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    border: none;
+}
+.upload-imginfor:hover{
+    box-shadow: 0 0 11px rgba(255, 158, 48, 0.3);
+}
+.image_news_avatar_upload{
+   padding: 0 20% 0 0;
+
+}
+.image_news_avatar_upload_div{
+    padding: 0px;
+}
+.image_news_avatar_img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position:center center;
+    border-left: 2px  dashed #ccc;
+    border-top: 2px  dashed #ccc;
+    border-right: 2px  dashed #ccc;
+}
+
+.image_news_avatar_img-button{
+    background: white;
+    border: 1px solid #ccc;
+}
+.image_news_avatar_img-button>button{
+    width: 100%;
+    border: none;
+    background: white !important;
+    padding: 5px 15px;
+}
+.image_news_avatar_img-button>button:focus{
+    outline: none;
+}
+
+
+
+.image_infor_news{
+    padding: 5px 20px;
+}
+.image_infor_news_item:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.image_infor_news_item-img{
+    height: 160px;
+    padding: 0px;
+}
+.image_infor_news-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.img-infor{
+    width: 24px;
+    height: 24px;
+}
+.choose_file_avatar{
+    visibility: hidden;
+}

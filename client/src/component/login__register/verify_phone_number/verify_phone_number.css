@@ -1,0 +1,83 @@
+
+/* Input key_OTP and number_phone */
+.inputnumber_phone{
+    padding: 0px;
+}
+.inputkey_otp{
+    padding: 0px;
+}
+.error_message-login{
+    text-align: center;
+    color: red;
+    
+}
+.inputnumber_phone>input{
+    border: none;
+    border-radius:0px ;
+    border-bottom:1.5px solid #ccc ;
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputkey_otp>input{
+    border: none;
+    border-radius:0px ;
+    border-bottom: 1.5px solid #ccc;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputnumber_phone>input:focus{
+    border-color: none;
+    border-radius:0px ;
+}
+.form-control:focus{
+    border-color: none;
+    box-shadow:none;
+    border-bottom:1.5px solid #947054;
+}
+.icon_number_phone{
+    padding-top: 5px;
+    padding-left: 17px;
+}
+.icon_key_otp{
+    padding-top: 5px;
+    padding-left: 17px;
+}
+.bntdangnhap>input{
+    background-color: #947054;
+    height: 44px;
+    width: 180px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius:0px ;
+}
+/* Modal form  */
+.modal-body{
+    padding-bottom: 16px;
+}
+/* Row form */
+.row_form_phone_nb{
+    margin-bottom: 20px;
+}
+
+/* Button GuiOTP XacThuc */
+.btn:focus{
+    outline: none !important;
+    box-shadow:none;
+}
+.bnt_form_phone_nb{
+   padding-top: 5px;
+   padding-right: 0px;
+}
+.bnt_form_phone_nb>input{
+    border: none;
+    background-color: #947054;
+    height: 32px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius:0px ;
+}

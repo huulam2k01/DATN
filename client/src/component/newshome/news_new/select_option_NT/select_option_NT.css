@@ -1,0 +1,11 @@
+.select_item_option_NT{
+    width: 100%;
+}
+.option_motel{
+   padding: 15px 25px;
+}
+.option_motel_div>label{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}

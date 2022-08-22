@@ -1,0 +1,12 @@
+.date__now{
+    padding: 0px 0px 0px 60px;
+}
+#date_now-h5{
+    color: gray;
+    font-size: 12px;
+}
+@media only screen and (max-width: 620px) {
+    .date__now{
+        padding: 0px;
+    }
+}
